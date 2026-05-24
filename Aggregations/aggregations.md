@@ -1,23 +1,23 @@
 Aggregations/aggregations.md
 
-Aggregations
-Topics Covered
-Introduction to Aggregations
-What is Aggregation in Data Processing
-Why Aggregations are Important
-Types of Aggregations
-Group By Aggregation
-Aggregate Functions
-Window Aggregation
-Time-Based Aggregation
-Incremental Aggregation
-Aggregations in Big Data Systems
-Real-Time Aggregation
-Advantages of Aggregations
-Challenges in Aggregations
-Use Cases of Aggregations
-Best Practices for Aggregation Design
-Introduction to Aggregations
+# Aggregations
+# Topics Covered
+# Introduction to Aggregations
+# What is Aggregation in Data Processing
+# Why Aggregations are Important
+# Types of Aggregations
+# Group By Aggregation
+# Aggregate Functions
+# Window Aggregation
+# Time-Based Aggregation
+# Incremental Aggregation
+# Aggregations in Big Data Systems
+# Real-Time Aggregation
+# Advantages of Aggregations
+# Challenges in Aggregations
+# Use Cases of Aggregations
+# Best Practices for Aggregation Design
+# Introduction to Aggregations
 Aggregation is a process used in data engineering, databases, analytics, and big data systems to combine multiple records into summarized information. Instead of working with millions of raw records, aggregation helps convert detailed data into meaningful insights such as totals, averages, counts, maximum values, and minimum values.
 
 For example, an e-commerce company may store millions of sales records every day. Instead of checking every individual sale, aggregation can calculate:
@@ -29,7 +29,7 @@ Maximum product sales
 Monthly revenue summary
 Aggregation makes data easier to analyze, faster to process, and useful for reporting and business intelligence.
 
-What is Aggregation in Data Processing
+# What is Aggregation in Data Processing
 Aggregation means collecting and summarizing data from multiple rows or events into a smaller and meaningful form.
 
 Example:
@@ -47,7 +47,7 @@ Laptop	5
 Mouse	5
 Here, multiple rows are grouped together to produce summarized output.
 
-Why Aggregations are Important
+# Why Aggregations are Important
 Aggregations are important because modern systems generate massive amounts of data every second. Processing raw data directly is expensive and slow.
 
 Aggregation helps by:
@@ -60,7 +60,7 @@ Enabling real-time monitoring
 Reducing storage and computation cost
 Without aggregation, large-scale analytics systems would become inefficient.
 
-Types of Aggregations
+# Types of Aggregations
 Different systems use different aggregation methods depending on business requirements.
 
 1. Simple Aggregation
